@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+}
+
+
+/* ############################################## SVG ################################# */
+
+.nodeHasChildren {
+    fill: white;
+}
+
+.nodeDoesNotHaveChildren {
+    fill: white;
+}
+
+text {
+    fill: dimgray;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.node {
+    cursor: pointer;
+}
+
+
+/* .node-group {
+    transition: all .2s;
+    transform-origin: center center;
+}
+
+.node-group:hover {
+    transform: scale(1.5);
+} */
+
+.node-collapse {
+    stroke: grey;
+}
+
+.node text {
+    fill: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10px;
+}
+
+.node circle {
+    stroke-width: 1px;
+    stroke: #70c645;
+    fill: #70c645;
+}
+
+.node-group .emp-name {
+    fill: #962828;
+    font-size: 12px;
+    font-weight: 600
+}
